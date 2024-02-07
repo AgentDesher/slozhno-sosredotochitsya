@@ -26,10 +26,11 @@ h3 {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: var(--main-font);
-  width: 100%;  
+  width: 100%;
   max-inline-size: 1024px;
   min-inline-size: 375px;
   margin: 0 auto;
+  background-attachment: fixed;
 }
 
 
@@ -46,7 +47,6 @@ h3 {
   background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .header__title {
@@ -152,15 +152,6 @@ h3 {
 }
 
 @media (min-width: 1024px) {
-  header.header {
-    min-height: 768px;
-  }
-  p.header__article {
-    max-width: 49%;
-    white-space: wrap;
-    overflow: hidden;
-  }
-
   .header__theme-menu {
     justify-self: center;
     align-self: start;
@@ -340,15 +331,18 @@ h3 {
   position: relative;
 }
 
-.footer__title {
-  color: var(--title-color);
-  font-family: "IBM Plex mono", monospace;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  font-style: normal;
-  font-weight: 700;
-  line-height: 82.5%;
-  text-shadow: 2px 2px 0 var(--title-shadow);
-  justify-self: start;
+@media (min-width: 768px) {
+  .footer {
+    min-height: 1024px;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    min-height: 768px;
+    margin-top: 60px;
+  }
 }
 
 .decorated-zone__footer::after {
@@ -373,18 +367,16 @@ h3 {
   left: var(--padding-pg);
 }
 
-@media (min-width: 1024px) {
-  .footer {
-    min-height: 768px;
-    margin-top: 60px;
-  }
-}
+/* ЗАГОЛОВОК ПОДВАЛА */
 
-@media (min-width: 768px) {
-  .footer {
-    min-height: 1024px;
-    margin-top: 60px;
-  }
+.footer__title {
+  color: var(--title-color);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%;
+  text-shadow: 2px 2px 0 var(--title-shadow);
+  justify-self: start;
 }
 
 @media (768px <= width <= 1024px) {
