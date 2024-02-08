@@ -41,12 +41,8 @@ h3 {
   grid-template-rows: 1fr min-content 1fr;
   padding: var(--padding-pg);
   min-height: 668px;
-  height: 100vh;
-  width: 100%;
   position: relative;
-  background-image: var(--bg-image);
-  background-position: center;
-  background-size: cover;
+  background: var(--bg-image) center / cover;
 }
 
 .header__title {
@@ -58,6 +54,8 @@ h3 {
   line-height: 82.5%;
   text-shadow: 4px 4px 0 var(--title-shadow);
   justify-self: start;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
@@ -157,12 +155,13 @@ h3 {
     align-self: start;
     margin-left: 33px;
     margin-top: 3px;
+    margin-bottom: 0;
   }
 
   ul.header__theme-menu-list {
     flex-direction: row;
     align-items: center;
-    margin-right: 12px;
+    margin-right: 55px;
   }
 }
 
@@ -226,7 +225,7 @@ h3 {
 }
 
 
-/*Секция причины*/
+/* Секция причины */
 
 @media (min-width: 1024px) {
   .section_reasons_list {
@@ -250,7 +249,7 @@ h3 {
   }
 }
 
-/*КАРТИНКИ*/
+/* КАРТИНКИ */
 
 .section_image {
   margin-top: 50px;
