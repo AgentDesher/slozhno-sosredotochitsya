@@ -209,6 +209,24 @@ h3 {
   }
 }
 
+@media (min-width: 768px) {
+  .section_problems {
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section_reasons,
+  .section_solution,
+  .section_image {
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 @media (min-width: 1024px) {
   .section_problems,
   .section_solution {
@@ -219,11 +237,16 @@ h3 {
 }
 
 @media (min-width: 768px) {
-  .section_reasons,
-  .section_solution,
-  .section_image
-   {
-    margin-top: 80px;
+  .content-section h3 {
+    margin-bottom: 10px;
+  }
+
+  .content-section p {
+    font-size: 18px;
+  }
+
+  .content-section p:not(:last-child) {
+    margin-bottom: 20px;
   }
 }
 
@@ -344,6 +367,7 @@ h3 {
   .footer {
     min-height: 768px;
     margin-top: 60px;
+    font-size: 157px;
   }
 }
 
