@@ -342,19 +342,23 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 20px;
 }
+
+}
+
+
+
+@media (min-width: 768px) {
+  .section_reasons h2 {
+    display: inline-block;
+    width: 236px;
+  }
 }
 
 @media (min-width: 1024px) {
   .section_reasons h2 {
     display: inline-block;
     width: 30%;
-  }
-}
-
-@media (min-width: 768px) {
-  .section_reasons h2 {
-    display: inline-block;
-    width: min-content;
+    max-width: 350px;
   }
 }
 
