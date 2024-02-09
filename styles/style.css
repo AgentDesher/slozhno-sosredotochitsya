@@ -247,14 +247,6 @@ h3 {
     padding-right: 20px;
   }
 
-  .section_reasons,
-  .section_solution,
-  .section_image {
-    margin-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
 
 }
 
@@ -304,19 +296,23 @@ h3 {
   .content-section {
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 52px;
+    margin-bottom: 50px;
   }
 
   .content-section h2 {
-    margin-bottom: 21px;
+    margin-bottom: 20px;
   }
 
   .content-section h3 {
     margin-bottom: 10px;
   }
 
-  .section_reasons_list h3 {
-    margin-bottom: 10px;
+  .content-section p:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .section_image {
+    margin-top: 52px;
   }
 
   .content-section p {
@@ -324,21 +320,14 @@ h3 {
     font-size: 18px;
   }
 
-  .content-section p:not(:last-child) {
-    margin-bottom: 21px;
-  }
-
   .section_reasons_list p {
-    margin-bottom: 19px;
+    margin-bottom: 20px;
   }
 
   .section_solution .main__title {
     margin-bottom: 21px;
   }
 
-  .section_image {
-    margin-top: 50px;
-  }
 }
 
 
@@ -436,10 +425,9 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  margin-top: 40px;
   padding: var(--padding-pg);
   max-height: 100vh;
-  min-height: 768px;
+  min-height: 668px;
   position: relative;
 }
 
@@ -459,9 +447,10 @@ h3 {
 }
 
 @media (width < 768px) {
-  .footer {
-    min-height: 620px;
-    margin-top: 60px;
+  footer .footer {
+    min-height: 668px;
+    margin-top: 40px;
+    padding-top: 0;
   }
 }
 
