@@ -237,42 +237,67 @@ h3 {
 }
 
 @media (min-width: 768px) {
+
+  .section_reasons h2 {
+    margin-bottom: 23px;
+  }
+
+  .section_solution .main__title {
+    margin-bottom: 23px;
+  }
+
   .content-section h3 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+
+  .content-section p:not(:last-child) {
+    margin-bottom: 22px;
   }
 
   .content-section p {
     font-size: 18px;
   }
 
-  .content-section p:not(:last-child) {
-    margin-bottom: 20px;
-  }
-
-  .section_reasons h2 {
-    margin-bottom: 20px;
-  }
-
-  .section_solution h3 {
-    margin-bottom: 20px;
-  }
 }
 
 @media (width < 768px) {
-
-  .content-section h2,
-  .content-section h3 {
-    margin-bottom: 10px;
+  .content {
+    margin-top: 39px;
   }
 
   .content-section {
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 50px;
+  }
+
+  .content-section h2 {
+    margin-bottom: 20px;
+  }
+
+  .content-section h3 {
+    margin-bottom: 10px;
+  }
+
+  .section_reasons_list h3 {
+    margin-bottom: 10px;
   }
 
   .content-section p {
-    margin-bottom: 10px;
+    line-height: 1.3em;
     font-size: 18px;
+  }
+
+  .content-section p:not(:last-child) {
+    margin-bottom: 21px;
+  }
+
+  .section_reasons_list p {
+    margin-bottom: 19px;
+  }
+
+  .section_solution .main__title {
+    margin-bottom: 21px;
   }
 }
 
