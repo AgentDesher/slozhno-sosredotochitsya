@@ -260,6 +260,10 @@ h3 {
     grid-template-columns: 1fr 2fr;
     gap: 10px;
   }
+
+  .section_solution {
+    margin-top: 60px;
+  }
 }
 
 @media (min-width: 768px) {
