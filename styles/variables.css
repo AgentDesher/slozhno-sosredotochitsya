@@ -1,7 +1,7 @@
 /*
   Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+  и их переопределение под различные устройства */
+
 
 :root {
   --bg-color: #000028;
@@ -16,7 +16,7 @@
   --bg-image: url(../images/cover-image-dark.png);
   --decor-display: block;
   --padding-pg: 10px;
-}
+} 
 
 @media (min-width: 768px) {
   :root {
