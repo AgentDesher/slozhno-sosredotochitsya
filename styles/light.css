@@ -3,31 +3,7 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme-light {
-  --title-color: #ffc2e6;
-  --text-color: #353430;
-  --button-color: #353430;
-  --sub-color: #353430;
-  --accent-color: #ff8dcb;
-  --bg-color: #fff1f7;
-  --hover-color: rgba(50, 49, 45, 0.4);
-  --bg-image: url(../images/cover-image-light.png);
-  --decor-display: none;
-}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --title-color: #ffc2e6;
-    --text-color: #353430;
-    --button-color: #353430;
-    --sub-color: #353430;
-    --accent-color: #ff8dcb;
-    --bg-color: #fff1f7;
-    --hover-color: rgba(50, 49, 45, 0.4);
-    --bg-image: url(../images/cover-image-light.png);
-    --decor-display: none;
-  }
-}
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
