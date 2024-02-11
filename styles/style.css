@@ -1,8 +1,3 @@
-:root {
-  --main-font: 'IBM Plex mono', sans-serif;
-}
-
-
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 h1 {
@@ -35,6 +30,9 @@ h3 {
   min-inline-size: 375px;
   margin: 0 auto;
   background-attachment: fixed;
+  --main-font: 'IBM Plex mono', sans-serif;
+  --title-shadow: #ff0070;
+  --padding-pg: 10px;
 }
 
 /* ЗАГОЛОВОК */
