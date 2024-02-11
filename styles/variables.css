@@ -2,7 +2,7 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства */
 
-:root {
+  :root {
   --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
   --title-color: #db00ff;
@@ -20,3 +20,4 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
+
