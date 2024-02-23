@@ -3,17 +3,18 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+
 .page.theme_light {
-    /* Переменные светлой темы */  
-    --bg-color: #fff1f7;
-    --bg-image: url(../images/cover-image-light.png);
-    --title-color: #ffc2e6;
-    --text-color: #353430;
-    --sub-color: #353430;
-    --button-color: #353430;
-    --accent-color: #ff8dcb;
-    --hover-color: rgba(50, 49, 45, 0.4);
-    --decor-display: none;
+  /* Переменные светлой темы */  
+  --bg-color: #fff1f7;
+  --bg-image: url(../images/cover-image-light.png);
+  --title-color: #ffc2e6;
+  --text-color: #353430;
+  --sub-color: #353430;
+  --button-color: #353430;
+  --accent-color: #ff8dcb;
+  --hover-color: rgba(50, 49, 45, 0.4);
+  --decor-display: none;
 }
 
 @media (375px <= width <= 768px) {
@@ -28,15 +29,15 @@
 
 @media (prefers-color-scheme: light) {
   .page.theme_auto {
-        /* Дублируем переменные светлой темы */
-        --bg-color: #fff1f7;
-        --bg-image: url(../images/cover-image-light.png);
-        --title-color: #ffc2e6;
-        --text-color: #353430;
-        --sub-color: #353430;
-        --button-color: #353430;
-        --accent-color: #ff8dcb;
-        --hover-color: rgba(50, 49, 45, 0.4);
-        --decor-display: none;
+    /* Дублируем переменные светлой темы */
+    --bg-color: #fff1f7;
+    --bg-image: url(../images/cover-image-light.png);
+    --title-color: #ffc2e6;
+    --text-color: #353430;
+    --sub-color: #353430;
+    --button-color: #353430;
+    --accent-color: #ff8dcb;
+    --hover-color: rgba(50, 49, 45, 0.4);
+    --decor-display: none;
     }
 }
