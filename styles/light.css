@@ -3,7 +3,7 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-  .page.theme_light {
+.page.theme_light {
     /* Переменные светлой темы */  
     --bg-color: #fff1f7;
     --bg-image: url(../images/cover-image-light.png);
