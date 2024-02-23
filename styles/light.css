@@ -27,7 +27,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+  .page.theme_auto {
         /* Дублируем переменные светлой темы */
         --bg-color: #fff1f7;
         --bg-image: url(../images/cover-image-light.png);
