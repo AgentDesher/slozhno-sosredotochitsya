@@ -154,7 +154,7 @@ h3 {
 @media (min-width: 1024px) {
   .header__theme-menu {
     justify-self: center;
-    align-self: start;
+    align-self: baseline;
     margin-left: 75px;
     margin-top: 20px;
     margin-bottom: 0;
